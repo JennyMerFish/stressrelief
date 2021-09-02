@@ -1,1 +1,1 @@
-# stressrelief
+The Stress Relief Website is a few pages that you can go to when you need a break to unwind your mind a little bit. I used three APIs that pull cat pictures(Cataas), dog pictures(dog.ceo), and random jokes(official-joke-api). All background pictures are from Unsplash. It's a simple, self-explanatory website. 

@@ -1,0 +1,98 @@
+html { 
+    background: url("https://images.unsplash.com/photo-1444877466744-dc2f2af2b931?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'IM Fell Great Primer', serif;   
+  }
+
+  body {
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    margin: 0;
+    backdrop-filter: blur(2px);
+    display: flex;
+    flex-direction: column;
+    height: 100vh; 
+}
+
+.alltogethernow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    align-items: center;
+    margin-bottom: 1rem;
+    background-color: #fdefb566;
+    height: 200px;
+    color: #113a1a;
+}
+
+h2 {
+    width: 70%;
+    text-align: center;
+    margin-top: 0em;
+}
+
+.button {
+    border-radius: 3px;
+    border: none;
+    background-color: cornsilk;
+    color: #113a1a;
+}
+
+.jokesBox {
+height: 125px;
+width: 350px;
+background-color: #fdefb566;
+text-align: center;
+border-radius: 20px;
+padding-top: 15px;
+}
+h3 {
+    color: #113a1a
+}
+
+.footer {
+    position:absolute;
+    bottom: 0;
+    width:100%;
+    height:40px;
+    background-color: #fdefb566;
+    text-align: center;
+    padding-top: .7em;
+}
+
+a {
+    color: #113a1a;
+    text-decoration: none;
+    font-size: larger;  
+}
+
+@media only screen and (max-width: 988px) {
+    h2 {
+        width: 95%;
+        text-align: center;
+        margin-top: 0em;
+    }
+
+} 
+@media only screen and (max-width: 700px) {
+    h2 {
+        width: 100%;
+        text-align: center;
+        margin-top: 0em;
+        font-size: large;
+    }
+    h1 {
+        margin: 8px;
+    }
+
+}     

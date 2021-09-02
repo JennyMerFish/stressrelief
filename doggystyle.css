@@ -1,0 +1,71 @@
+html { 
+    background: url("https://images.unsplash.com/photo-1501854140801-50d01698950b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1440&q=80") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'IM Fell Great Primer', serif;   
+  }
+
+  body {
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    margin: 0;
+    backdrop-filter: blur(2px);
+    display: flex;
+    flex-direction: column;
+    height: 100vh; 
+}
+
+.alltogethernow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+
+h2 {
+    margin-top: 2px;
+
+}
+.header {
+    
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    align-items: center;
+    background-color: #fdefb566;
+    height: auto;
+    color: #113a1a;
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+img {
+    width: 40vw;
+    max-height: 67vh;
+    border-radius: 20px;
+    margin-top: 7px;
+}
+
+
+.footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:50px;
+    background-color: #fdefb566;
+    text-align: center;
+}
+
+a {
+    color: #113a1a;
+    text-decoration: none;
+    font-size: larger;
+    
+}
