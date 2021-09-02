@@ -69,3 +69,13 @@ a {
     font-size: larger;
     
 }
+
+
+@media only and screen (max-width: 768px) {
+    img {
+        width: 50vw;
+        max-height: 75vh;
+        border-radius: 20px;
+        margin-top: 7px;
+    }
+}
