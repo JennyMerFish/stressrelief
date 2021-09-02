@@ -5,6 +5,7 @@ html {
     -o-background-size: cover;
     background-size: cover;
     font-family: 'IM Fell Great Primer', serif;   
+    overflow: hidden;
   }
 
   body {
@@ -14,7 +15,8 @@ html {
     backdrop-filter: blur(2px);
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 100%;
+    position: fixed;
    
 }
 
