@@ -6,6 +6,7 @@ html {
     background-size: cover;
     font-family: 'IM Fell Great Primer', serif;
     height: 100%;
+    overflow: hidden;
     
   }
 
