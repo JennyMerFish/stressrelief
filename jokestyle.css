@@ -78,7 +78,7 @@ a {
 
 @media only screen and (max-width: 988px) {
     h2 {
-        width: 95%;
+        width: 90%;
         text-align: center;
         margin-top: 0em;
     }
@@ -86,7 +86,7 @@ a {
 } 
 @media only screen and (max-width: 700px) {
     h2 {
-        width: 100%;
+        width: 90%;
         text-align: center;
         margin-top: 0em;
         font-size: large;

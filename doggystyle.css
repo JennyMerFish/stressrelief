@@ -9,12 +9,13 @@ html {
 
   body {
     background-repeat: no-repeat;
-    background-size: 100vw 100vh;
+    
     margin: 0;
     backdrop-filter: blur(2px);
     display: flex;
     flex-direction: column;
-    height: 100vh; 
+    height: 100vh;
+   
 }
 
 .alltogethernow {
@@ -55,7 +56,7 @@ img {
 
 
 .footer {
-    position:absolute;
+    position:fixed;
     bottom:0;
     width:100%;
     height:50px;
@@ -71,10 +72,19 @@ a {
 }
 
 
-@media only and screen (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     img {
         width: 50vw;
         max-height: 75vh;
+        border-radius: 20px;
+        margin-top: 7px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    img {
+        width: 65vw;
+        max-height: 85vh;
         border-radius: 20px;
         margin-top: 7px;
     }
