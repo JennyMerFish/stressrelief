@@ -31,7 +31,7 @@ body {
 
 h2 {
     text-align: center;
-    padding: 3rem 7rem 3rem 7rem;
+    padding: 2rem 7rem 3rem 7rem;
 }
 .footer {
     position:absolute;
@@ -53,6 +53,6 @@ a {
 @media only screen and (max-width: 580px) {
     h2 {
         text-align: center;
-        padding: 3rem 3rem 3rem 3rem;
+        padding: 2rem 3rem 3rem 3rem;
     }
 }
